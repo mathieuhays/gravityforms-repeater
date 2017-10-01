@@ -317,7 +317,7 @@ class GF_Field_Repeater extends GF_Field {
 
 					if (!empty($repeater_parems)) {
 						if (array_key_exists($repeater_child, $repeater_parems)) {
-							$repeater_children_info[$repeater_child]['prePopulate'] = $repeater_parems[$repeater_child];
+							$repeater_children_info[$repeater_child]['prePopulate'] = $repeater_parems;
 						}
 					}
 
